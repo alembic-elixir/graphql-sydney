@@ -15,8 +15,18 @@ use Mix.Config
 # which you typically run after static files are built.
 config :graphql_sydney, GraphqlSydney.Web.Endpoint,
   on_init: {GraphqlSydney.Web.Endpoint, :load_from_system_env, []},
-  url: [host: "example.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  url: [host: "graphql.sydney", port: 80],
+  cache_static_manifest: "priv/static/cache_manifest.json",
+  secret_key_base: System.get_env("SECRET_KEY_BASE")
+
+config :elixir_sydney, ElixirSydney.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  url: System.get_env("DATABASE_URL"),
+  username: System.get_env("PGUSER"),
+  password: System.get_env("PGPASSWORD"),
+  database: System.get_env("PGDATABASE"),
+  hostname: System.get_env("PGHOST"),
+  pool: Ecto.Adapters.SQL.Sandbox
 
 # Do not print debug messages in production
 config :logger, level: :info
@@ -61,4 +71,3 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-import_config "prod.secret.exs"
