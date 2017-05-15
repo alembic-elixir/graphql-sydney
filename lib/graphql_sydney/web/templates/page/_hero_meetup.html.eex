@@ -14,7 +14,7 @@
       <p class="byline">
         <%= @meetup.location.name %>
         &mdash;
-        <%= link "Directions", to: @meetup.location.map_url, target: "_blank" %>
+        <%= link "Directions", to: @meetup.location.map_url, target: "_blank", rel: "noopener" %>
       </p>
     </div>
     <div id="react-hero-button">
@@ -24,6 +24,7 @@
             link "Sign Up Now",
               to: @meetup.url,
               target: "_blank",
+              rel: "noopener",
               class: ""
           %>
         </div>

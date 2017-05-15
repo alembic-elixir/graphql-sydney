@@ -18,10 +18,10 @@
             <h5 class="footer-heading">GraphQL Sydney</h5>
             <ul>
               <li>
-                <%= link "Meetup", to: "https://www.meetup.com/GraphQL-Sydney", target: "_blank" %>
+                <%= link "Meetup", to: "https://www.meetup.com/GraphQL-Sydney", target: "_blank", rel: "noopener" %>
               </li>
               <li>
-                <%= link "@graphqlsydney", to: "https://twitter.com/graphqlsydney", target: "_blank" %>
+                <%= link "@graphqlsydney", to: "https://twitter.com/graphqlsydney", target: "_blank", rel: "noopener" %>
               </li>
             </ul>
           </div>
@@ -29,16 +29,16 @@
             <h5 class="footer-heading">Resources</h5>
             <ul>
               <li>
-                <%= link "GraphQL Overview", to: "http://graphql.org/", target: "_blank" %>
+                <%= link "GraphQL Overview", to: "http://graphql.org/", target: "_blank", rel: "noopener" %>
               </li>
               <li>
-                <%= link "Learn GraphQL", to: "http://graphql.org/learn", target: "_blank" %>
+                <%= link "Learn GraphQL", to: "http://graphql.org/learn", target: "_blank", rel: "noopener" %>
               </li>
               <li>
-                <%= link "GraphQL Libraries", to: "http://graphql.org/code/", target: "_blank" %>
+                <%= link "GraphQL Libraries", to: "http://graphql.org/code/", target: "_blank", rel: "noopener" %>
               </li>
               <li>
-                <%= link "The GraphQL Spec", to: "http://facebook.github.io/graphql/", target: "_blank" %>
+                <%= link "The GraphQL Spec", to: "http://facebook.github.io/graphql/", target: "_blank", rel: "noopener" %>
               </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="row footer-copyright">
-      <p>Thanks to <%= link "SydJS", to: "http://www.sydjs.com/", target: "_blank" %> for the website template</p>
+      <p>Thanks to <%= link "SydJS", to: "http://www.sydjs.com/", target: "_blank", rel: "noopener" %> for the website template</p>
     </div>
   </div>
 </footer>

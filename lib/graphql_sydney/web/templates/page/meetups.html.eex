@@ -6,9 +6,9 @@
     <p class="lead">
       We usually meet up the 1st Wednesday of every month.
       We hope to see you at our
-      <%= link "next meetup", to: @next_meetup.url, target: "_blank" %>!
+      <%= link "next meetup", to: @next_meetup.url, target: "_blank", rel: "noopener" %>!
       Stay in the loop &mdash;
-      <%= link "follow us on twitter", to: "http://twitter.com/GraphQLSydney", target: "_blank" %>
+      <%= link "follow us on twitter", to: "http://twitter.com/GraphQLSydney", target: "_blank", rel: "noopener" %>
     </p>
   </div>
   <div class="tile ph-1 pv-1">
@@ -18,7 +18,7 @@
     <hr class="mv-2">
     <div class="meetup-cta">
       <div class="alert alert-success mb-0 text-center">
-        <%= link "Sign Up Now", to: @next_meetup.url, target: "_blank" %>
+        <%= link "Sign Up Now", to: @next_meetup.url, target: "_blank", rel: "noopener" %>
       </div>
     </div>
   </div>
