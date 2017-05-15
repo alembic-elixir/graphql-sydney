@@ -1,10 +1,30 @@
 <article class="home-about">
-  <div>
-    <h3>GraphQL Sydney Community</h3>
-  </div>
+  <h2>GraphQL Sydney Community</h2>
+
+  <p>
+    We're very excited to bring together the latest happenings in the rapidly growing GraphQL ecosystem.
+  </p>
+
+  <p>
+    Currently we're planning to host a meetup at least quarterly but will run them more often if there's sufficient interest.
+  </p>
+
+  <p>
+    Please join the community. We'll be tweeting relevant news and information from the
+    <%= link "GraphQL Sydney Twitter account", to: "https://twitter.com/graphqlsydney" %>.
+  </p>
 
   <p class="mt-1">
-    <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="http://platform.twitter.com/widgets/follow_button.a0ec3119d8db2bc5422f2144c89ad7a9.en.html#dnt=true&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=elixirsydney&amp;show_count=true&amp;show_screen_name=true&amp;size=l&amp;time=1487642361501" style="position: static; visibility: visible; width: 250px; height: 28px;" data-screen-name="sydjs">
+    <iframe
+      id="twitter-widget-0"
+      scrolling="no"
+      frameborder="0"
+      allowtransparency="true"
+      class="twitter-follow-button twitter-follow-button-rendered"
+      title="Follow GraphQL Sydney on Twitter"
+      src="http://platform.twitter.com/widgets/follow_button.a0ec3119d8db2bc5422f2144c89ad7a9.en.html#dnt=true&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=graphqlsydney&amp;show_count=true&amp;show_screen_name=true&amp;size=l&amp;time=1487642361501"
+      style="height: 28px; width: 270px"
+      data-screen-name="graphqlsydney">
     </iframe>
   </p>
 
@@ -20,6 +40,6 @@
   </section>
 
   <section class="logo row">
-    <!-- <img src="/images/elixir_sydney_400x400.jpg" alt="Elixir Sydney Logo"> -->
+    <img src="/images/graphql-sydney-logo.svg" alt="GraphQL Sydney Logo">
   </section>
 </article>

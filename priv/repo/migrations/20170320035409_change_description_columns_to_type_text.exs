@@ -1,4 +1,4 @@
-defmodule ElixirSydney.Repo.Migrations.ChangeDescriptionColumnsToTypeText do
+defmodule GraphQLSydney.Repo.Migrations.ChangeDescriptionColumnsToTypeText do
   use Ecto.Migration
 
   def change do

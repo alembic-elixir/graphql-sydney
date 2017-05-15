@@ -8,7 +8,7 @@
       We hope to see you at our
       <%= link "next meetup", to: @next_meetup.url, target: "_blank" %>!
       Stay in the loop &mdash;
-      <%= link "follow us on twitter", to: "http://twitter.com/elixirsydney", target: "_blank" %>
+      <%= link "follow us on twitter", to: "http://twitter.com/GraphQLSydney", target: "_blank" %>
     </p>
   </div>
   <div class="tile ph-1 pv-1">

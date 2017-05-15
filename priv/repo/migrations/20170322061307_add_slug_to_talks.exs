@@ -1,4 +1,4 @@
-defmodule ElixirSydney.Repo.Migrations.AddSlugToTalks do
+defmodule GraphQLSydney.Repo.Migrations.AddSlugToTalks do
   use Ecto.Migration
 
   def change do

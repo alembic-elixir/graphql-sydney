@@ -1,4 +1,4 @@
-defmodule ElixirSydney.Repo.Migrations.AddVideoUrlToTalks do
+defmodule GraphQLSydney.Repo.Migrations.AddVideoUrlToTalks do
   use Ecto.Migration
 
   def change do

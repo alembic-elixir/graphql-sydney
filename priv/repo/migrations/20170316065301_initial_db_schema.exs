@@ -1,4 +1,4 @@
-defmodule ElixirSydney.Repo.Migrations.InitialDbSchema do
+defmodule GraphQLSydney.Repo.Migrations.InitialDbSchema do
   use Ecto.Migration
 
   def change do
