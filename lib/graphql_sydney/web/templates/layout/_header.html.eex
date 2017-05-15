@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-header">
         <%= link to: page_path(@conn, :index), title: "Back to Home", class: "site-branding" do %>
-          <img class="logo" src="images/graphql-sydney-logo.svg" alt="GraphQL Sydney" width="50" height="50">
+          <img class="logo" src="https://res.cloudinary.com/alembic/image/upload/c_scale,w_200/v1494823606/graphql-sydney-logo_nfzerw.svg" alt="GraphQL Sydney" width="50" height="50">
         <% end %>
         <a id="site-nav-toggle" href="javascript:;" class="site-nav-toggle">
           <div class="patty"></div>
