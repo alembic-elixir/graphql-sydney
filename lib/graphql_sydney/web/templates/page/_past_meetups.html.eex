@@ -1,0 +1,24 @@
+<div class="page-content">
+  <div class="container">
+    <div class="timeline">
+      <div class="timeline-path"></div>
+      <div class="timeline-item--offset"></div>
+      <%= for two_meetups <- Enum.chunk(@meetups, 2, 2, []) do %>
+        <%= for {odd_or_even, meetup} <- Enum.zip(["odd", "even"], two_meetups) do %>
+          <div class="timeline-item timeline-item--<%= odd_or_even %>">
+            <div class="timeline-item-node"></div>
+            <%= link to: page_path(@conn, :meetup, meetup.slug), class: "timeline-item-inner" do %>
+              <h6 class="text-caps text-danger">
+                <%= short_date(meetup.date) %>
+              </h6>
+              <h4>
+                <%= meetup.title %>
+              </h4>
+              <%= markdown_to_html meetup.description %>
+            <% end %>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>

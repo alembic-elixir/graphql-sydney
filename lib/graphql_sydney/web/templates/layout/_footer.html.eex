@@ -1,0 +1,60 @@
+<footer class="site-footer site-footer--sticky">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h5 class="footer-heading">About</h5>
+        <ul>
+          <li>
+            <%= link "More about GraphQL Sydney", to: page_path(@conn, :about) %>
+          </li>
+          <li>
+            <%= link "Contact us", to: "mailto:organisers@graphql.sydney" %>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-xs-4">
+            <h5 class="footer-heading">GraphQL Sydney</h5>
+            <ul>
+              <li>
+                <%= link "Meetup", to: "https://www.meetup.com/GraphQL-Sydney", target: "_blank" %>
+              </li>
+              <li>
+                <%= link "@graphqlsydney", to: "https://twitter.com/graphqlsydney", target: "_blank" %>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <h5 class="footer-heading">Resources</h5>
+            <ul>
+              <li>
+                <%= link "GraphQL Overview", to: "http://graphql.org/", target: "_blank" %>
+              </li>
+              <li>
+                <%= link "Learn GraphQL", to: "http://graphql.org/learn", target: "_blank" %>
+              </li>
+              <li>
+                <%= link "GraphQL Libraries", to: "http://graphql.org/code/", target: "_blank" %>
+              </li>
+              <li>
+                <%= link "The GraphQL Spec", to: "http://facebook.github.io/graphql/", target: "_blank" %>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <h5 class="footer-heading">Sponsors</h5>
+            <ul>
+              <li>
+                Brought to you with ❤️ by <a href="https://alembic.com.au/">Alembic</a>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row footer-copyright">
+      <p>Thanks to <%= link "SydJS", to: "http://www.sydjs.com/", target: "_blank" %> for the website template</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,19 @@
+.hero-meetup--next .hero-background {
+  background:url("/images/graphql-sydney-bg-2.jpg") no-repeat center center / cover;
+  background-color: #333;
+}
+
+.welcome {
+  color: #fff;
+  text-align: center;
+  z-index: 1000;
+}
+
+.home-about{
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.logo {
+  margin: 0.1rem 0;
+}

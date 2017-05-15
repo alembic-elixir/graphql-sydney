@@ -1,0 +1,3 @@
+<%= render "_hero_meetup.html", meetup: @meetup %>
+
+<%= render "_about.html" %>
