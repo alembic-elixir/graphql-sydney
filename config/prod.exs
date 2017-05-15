@@ -19,7 +19,7 @@ config :graphql_sydney, GraphqlSydney.Web.Endpoint,
   cache_static_manifest: "priv/static/cache_manifest.json",
   secret_key_base: System.get_env("SECRET_KEY_BASE")
 
-config :elixir_sydney, ElixirSydney.Repo,
+config :graphql_sydney, GraphqlSydney.Repo,
   adapter: Ecto.Adapters.Postgres,
   url: System.get_env("DATABASE_URL"),
   username: System.get_env("PGUSER"),
