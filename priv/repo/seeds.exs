@@ -30,6 +30,36 @@ josh_price = Repo.insert!(
   }, on_conflict: :replace_all, conflict_target: :name
 )
 
+keith_pitt  = Repo.insert!(
+  %Person{
+    name: "Keith Pitt",
+    avatar_url: "https://secure.meetupstatic.com/photos/member/e/9/d/b/highres_261659867.jpeg",
+    meetup_url: "https://www.meetup.com/GraphQL-Melbourne/members/13725297/",
+    website_url: "https://buildkite.com",
+    twitter: "@keithpitt"
+  }, on_conflict: :replace_all, conflict_target: :name
+)
+
+joseph_glanville = Repo.insert!(
+  %Person{
+    name: "Joseph Glanville",
+    avatar_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAuOAAAAJGZhNTY5NTA4LWNhZDQtNDliMy04OGIzLWM3ODllMDlmZDY2Mw.jpg",
+    meetup_url: "https://www.meetup.com/GraphQL-Sydney/members/12691284/",
+    website_url: "http://www.apollodata.com/",
+    twitter: "@jpgvm"
+  }, on_conflict: :replace_all, conflict_target: :name
+)
+
+chris_giffard = Repo.insert!(
+  %Person{
+    name: "Chris Giffard",
+    avatar_url: "https://d8142femxnlg1.cloudfront.net/cropped-profile-photos/8ffb1f2c99fb6c0c9bf9a2c5ff9415978d128242-s300.jpg",
+    meetup_url: "https://www.meetup.com/GraphQL-Sydney/members/66982312/",
+    website_url: "https://autopilothq.com/",
+    twitter: "@cgiffard"
+  }, on_conflict: :replace_all, conflict_target: :name
+)
+
 james_sadler = Repo.insert!(
   %Person{
     name: "James Sadler",
@@ -49,7 +79,7 @@ raw_meetups = [
     description: """
     We're bringing together everyone who is as excited about the potential of GraphQL as we are.
 
-    A varierty of shorter talks from GraphQL practitioners will cover all aspects of GraphQL from frontend to backend.
+    A varierty of shorter talks from passionate GraphQL practitioners will cover all aspects of GraphQL from frontend to backend.
 
     Some light food as well as craft beer and cider on tap will be available.
     """,
@@ -66,6 +96,52 @@ raw_meetups = [
         as well as the companies who are building GraphQL APIs.
         """,
         presenter: josh_price
+      },
+      %Talk{
+        title: "Building User Interfaces with Relay and GraphQL",
+        slug: "building-user-interfaces-with-relay-and-graphql",
+        description: """
+        Keith is one of the earliest and most passionate GraphQL exponents. Buildkite has
+        boasted an easy to use GraphQL API written in Ruby since it was available.
+
+        He'll show you how Relay makes building data layers for client web apps very straightforward.
+        """,
+        presenter: keith_pitt
+      },
+      %Talk{
+        title: "Comparing Relay Modern and Apollo",
+        slug: "comparing-relay-modern-and-apollo",
+        description: """
+        Joseph will explore the new features in the latest version of Relay 1.0 (aka "Relay Modern").
+
+        He'll also compare Relay against the popular Apollo client ecosystem.
+        """,
+        presenter: joseph_glanville
+      },
+      %Talk{
+        title: "How GraphQL Led Us To Strongly Type Our Whole Stack",
+        slug: "how-graphql-led-us-to-strongly-type-our-whole-stack",
+        description: """
+        When Autopilot first decided on GraphQL to form the basis of our new API —
+        we, like most people — were primarily interested in the client-facing features.
+
+        Ultimately though, GraphQL's strongly typed interface caused us to rethink every layer behind the facade
+        """,
+        presenter: chris_giffard
+      },
+      %Talk{
+        title: "Real-time APIs with GraphQL Subscriptions",
+        slug: "real-time-apis-with-graphql-subscriptions",
+        description: """
+        One of the features that gives GraphQL a major advantage over REST is it's ability to take
+        advantage of persistent connections and provide real-time updates to connected clients.
+
+        Now that subscriptions has finally been merged back into the GraphQL spec,
+        and HTTP/2 usage in on the rise, it's time to take full advantage of this feature.
+
+        James will demonstrate how you can use this in your own applications.
+        """,
+        presenter: james_sadler
       }
     ]
   }
