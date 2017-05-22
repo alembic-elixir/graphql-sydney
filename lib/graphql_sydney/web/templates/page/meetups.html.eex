@@ -4,7 +4,6 @@
   <div class="page-intro">
     <h1 class="page-title">Meetups</h1>
     <p class="lead">
-      We usually meet up the 1st Wednesday of every month.
       We hope to see you at our
       <%= link "next meetup", to: @next_meetup.url, target: "_blank", rel: "noopener" %>!
       Stay in the loop &mdash;

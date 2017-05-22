@@ -15,7 +15,12 @@ alias GraphqlSydney.Events.{Meetup, Talk, Person, Location}
 
 we_work = Repo.insert!(
   %Location{
-    name: "WeWork, 100 Harris St, Pyrmont 2009",
+    name: "WeWork",
+    street_address: "100 Harris St",
+    suburb: "Pyrmont",
+    state: "NSW",
+    country: "Australia",
+    postcode: "2009",
     map_url: "https://www.google.com.au/maps/place/WeWork+Pyrmont/@-33.8684613,151.1937766,15z/data=!4m5!3m4!1s0x0:0x284bed171a7c5347!8m2!3d-33.8684613!4d151.1937766"
   }, on_conflict: :replace_all, conflict_target: :name
 )
@@ -79,7 +84,7 @@ raw_meetups = [
     description: """
     We're bringing together everyone who is as excited about the potential of GraphQL as we are.
 
-    A varierty of shorter talks from passionate GraphQL practitioners will cover all aspects of GraphQL from frontend to backend.
+    A variety of shorter talks from passionate GraphQL practitioners will cover all aspects of GraphQL from frontend to backend.
 
     Some light food as well as craft beer and cider on tap will be available.
     """,
@@ -101,10 +106,11 @@ raw_meetups = [
         title: "Building User Interfaces with Relay and GraphQL",
         slug: "building-user-interfaces-with-relay-and-graphql",
         description: """
-        Keith is one of the earliest and most passionate GraphQL exponents. Buildkite has
-        boasted an easy to use GraphQL API written in Ruby since it was available.
+        Keith is one of the earliest and most passionate GraphQL exponents in Australia.
+        Buildkite has boasted an easy to use GraphQL API written in Ruby for a long time now.
 
-        He'll show you how Relay makes building data layers for client web apps very straightforward.
+        Keith will show you how Relay makes building data layers for client web apps very straightforward
+        and might even surprise you with some live coding.
         """,
         presenter: keith_pitt
       },
@@ -112,9 +118,9 @@ raw_meetups = [
         title: "Comparing Relay Modern and Apollo",
         slug: "comparing-relay-modern-and-apollo",
         description: """
-        Joseph will explore the new features in the latest version of Relay 1.0 (aka "Relay Modern").
+        The eagerly awaited Relay 1.0 (aka "Relay Modern") has just been released.
 
-        He'll also compare Relay against the popular Apollo client ecosystem.
+        Joseph will explore the new features in the latest version and compare Relay against the Apollo GraphQL client libraries.
         """,
         presenter: joseph_glanville
       },
@@ -122,10 +128,11 @@ raw_meetups = [
         title: "How GraphQL Led Us To Strongly Type Our Whole Stack",
         slug: "how-graphql-led-us-to-strongly-type-our-whole-stack",
         description: """
-        When Autopilot first decided on GraphQL to form the basis of our new API —
-        we, like most people — were primarily interested in the client-facing features.
+        When Autopilot first decided on GraphQL to form the basis of their new API —
+        they, like most people — were primarily interested in the client-facing features.
 
-        Ultimately though, GraphQL's strongly typed interface caused us to rethink every layer behind the facade
+        Ultimately though, GraphQL's strongly typed interface caused us them rethink every layer behind the facade.
+        Chris will take you on their journey to stronger typing and the benefits.
         """,
         presenter: chris_giffard
       },

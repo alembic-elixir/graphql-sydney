@@ -44,14 +44,14 @@ defp to_ld_json(meetup) do
     "endDate": meetup.date,
     "location": %{
       "@type": "Place",
-      "name": "Pivotal Labs",
+      "name": meetup.location.name,
       "address": %{
         "@type": "PostalAddress",
-        "streetAddress": "11/155 Clarence Street",
-        "addressLocality": "Sydney",
-        "addressRegion": "NSW",
-        "postalCode": "2000",
-        "addressCountry": "Australia"
+        "streetAddress": meetup.location.street_address,
+        "addressLocality": meetup.location.suburb,
+        "addressRegion": meetup.location.state,
+        "postalCode": meetup.location.postcode,
+        "addressCountry": meetup.location.country
       }
     }
   }
