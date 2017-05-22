@@ -29,6 +29,7 @@ defmodule GraphqlSydney.Events do
     Meetup
     |> order_by(desc: :date)
     |> preload(talks: :presenter)
+    |> preload(:location)
     |> Repo.all
   end
 
