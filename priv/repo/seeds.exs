@@ -115,12 +115,13 @@ raw_meetups = [
         presenter: keith_pitt
       },
       %Talk{
-        title: "Comparing Relay Modern and Apollo",
-        slug: "comparing-relay-modern-and-apollo",
+        title: "Introduction to Apollo Client",
+        slug: "introduction-to-apollo-client",
         description: """
-        The eagerly awaited Relay 1.0 (aka "Relay Modern") has just been released.
+        Apollo Client is a flexible, community-focused GraphQL client for JavaScript.
 
-        Joseph will explore the new features in the latest version and compare Relay against the Apollo GraphQL client libraries.
+        Joseph will cover why you may want a GraphQL client, the types of GraphQL clients available,
+        how they work and why Apollo Client is a great choice for most applications.
         """,
         presenter: joseph_glanville
       },
