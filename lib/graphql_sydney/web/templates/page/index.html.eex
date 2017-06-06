@@ -1,5 +1,5 @@
 <%= json_ld_for_meetups([@meetup]) %>
 
-<%= render "_hero_meetup.html", meetup: @meetup %>
+<%= render "_hero_meetup.html", meetup: @meetup, conn: @conn %>
 
 <%= render "_about.html" %>

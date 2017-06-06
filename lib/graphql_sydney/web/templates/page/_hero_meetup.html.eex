@@ -2,9 +2,11 @@
   <section class="hero-intro hero-intro--hasmask">
     <div class="hero-background"></div>
     <div class="hero-intro-content">
-      <h5 class="subtitle">Next Meetup</h5>
+      <h5 class="subtitle">
+        <%= @meetup.subtitle %>
+      </h5>
       <h1 class="title">
-        <%= @meetup.title %>
+        <%= link @meetup.title, to: page_path(@conn, :meetup, @meetup.slug), style: "color: white;" %>
       </h1>
       <p class="byline">
         <strong>
@@ -12,7 +14,11 @@
         </strong>
       </p>
       <p class="byline">
-        <%= @meetup.location.name %>
+        <strong>
+          <%= @meetup.location.name %>
+        </strong>
+        <%= @meetup.location.street_address %>,
+        <%= @meetup.location.suburb %>
         &mdash;
         <%= link "Directions", to: @meetup.location.map_url, target: "_blank", rel: "noopener" %>
       </p>

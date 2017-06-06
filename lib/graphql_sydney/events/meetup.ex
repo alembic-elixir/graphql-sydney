@@ -5,6 +5,7 @@ defmodule GraphqlSydney.Events.Meetup do
 
   schema "meetup" do
     field :title, :string
+    field :subtitle, :string
     field :slug, :string
     field :description, :string
     field :url, :string

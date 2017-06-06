@@ -14,6 +14,9 @@ alias GraphqlSydney.Repo
 alias GraphqlSydney.Events.{Meetup, Talk, Person, Location}
 
 Repo.delete_all(Talk)
+Repo.delete_all(Person)
+Repo.delete_all(Meetup)
+Repo.delete_all(Location)
 
 we_work = Repo.insert!(
   %Location{
@@ -79,14 +82,15 @@ james_sadler = Repo.insert!(
 
 raw_meetups = [
   %Meetup{
-    title: "First GraphQL Sydney Meetup",
-    slug: "first-graphql-sydney-meetup",
+    title: "Get Ready For The Realtime Web",
+    subtitle: "First GraphQL Sydney Meetup",
+    slug: "get-ready-for-the-realtime-web-with-graphql",
     date: ~D[2017-06-08],
     location: we_work,
     description: """
     We're bringing together everyone who is as excited about the potential of GraphQL as we are.
 
-    A variety of shorter talks from passionate GraphQL practitioners will cover all aspects of GraphQL from frontend to backend.
+    A variety of short talks from passionate GraphQL practitioners will cover all aspects of GraphQL from frontend to backend.
 
     Some light food as well as craft beer and cider on tap will be available.
     """,
