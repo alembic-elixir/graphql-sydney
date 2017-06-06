@@ -13,6 +13,8 @@
 alias GraphqlSydney.Repo
 alias GraphqlSydney.Events.{Meetup, Talk, Person, Location}
 
+Repo.delete_all(Talk)
+
 we_work = Repo.insert!(
   %Location{
     name: "WeWork",
