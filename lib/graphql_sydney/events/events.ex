@@ -33,6 +33,13 @@ defmodule GraphqlSydney.Events do
     |> Repo.all
   end
 
+  def meetup_for_slug(slug) do
+    Meetup
+    |> preload(talks: :presenter)
+    |> preload(:location)
+    |> Repo.get_by!(slug: slug)
+  end
+
   @doc """
   Returns the list of meetups.
 

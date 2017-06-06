@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A meetup in Sydney for those interested in or passionate about using GraphQL and associated technologies for building effective APIs. Sound good? Join us!"/>
 
-    <title>GraphQL Sydney</title>
+    <title>GraphQL Sydney - <%= @title %></title>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
