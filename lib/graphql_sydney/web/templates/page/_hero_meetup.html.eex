@@ -8,6 +8,9 @@
       <h1 class="title">
         <%= link @meetup.title, to: page_path(@conn, :meetup, @meetup.slug), style: "color: white;" %>
       </h1>
+      <h2 class="subtitle">
+        brought to you with ❤️ by <a href="http://alembic.com.au">Alembic</a> and <a href="http://www.apollodata.com/">Apollo</a>
+      </h2>
       <p class="byline">
         <strong>
           <%= display_date_time(@meetup) %>

@@ -3151,6 +3151,16 @@ nav:after {
   margin-bottom: 1em
 }
 
+#hero .hero-intro h2.subtitle {
+  font-size: 2em;
+	color: white;
+}
+
+#hero .hero-intro h2.subtitle a {
+	color: white;
+	text-decoration: underline;
+}
+
 #hero .hero-intro .byline {
   font-weight: 300;
   font-size: 22.75px
