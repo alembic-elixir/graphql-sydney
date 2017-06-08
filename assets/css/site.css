@@ -3151,14 +3151,12 @@ nav:after {
   margin-bottom: 1em
 }
 
-#hero .hero-intro h2.subtitle {
-  font-size: 2em;
-	color: white;
+#hero .hero-intro h4.subtitle {
+  font-size: 1.2em;
 }
 
-#hero .hero-intro h2.subtitle a {
+#hero .hero-intro h4.subtitle a {
 	color: white;
-	text-decoration: underline;
 }
 
 #hero .hero-intro .byline {
