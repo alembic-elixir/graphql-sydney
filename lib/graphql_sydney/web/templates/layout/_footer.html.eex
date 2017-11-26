@@ -8,7 +8,7 @@
             <%= link "More about GraphQL Sydney", to: page_path(@conn, :about) %>
           </li>
           <li>
-            <%= link "Contact us", to: "mailto:organisers@graphql.sydney" %>
+            <%= link "Contact us", to: "mailto:meetups+graphql@alembic.com.au" %>
           </li>
         </ul>
       </div>
