@@ -109,14 +109,14 @@ sputnik_antolovich = Repo.insert!(
     meetup_url: "https://www.meetup.com/GraphQL-Sydney/members/200796744/",
     website_url: "https://trioxis.com/",
     twitter: "https://www.facebook.com/sputnik.antolovich"
-  }, conflict_target: :replace_all, on_conflict: :replace_all
+  }, on_conflict: :replace_all, conflict_target: :name
 )
 
 
 raw_meetups = [
   %Meetup{
     title: "Realtime and Serverless APIs",
-    subtitle: "",
+    subtitle: "Looking into the Future of GraphQL",
     slug: "realtime-and-serverless-apis-with-graphql",
     date: ~D[2017-12-14],
     location: domain,
