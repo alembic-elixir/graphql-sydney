@@ -1,5 +1,6 @@
 .hero-meetup--next .hero-background {
-  background:url("https://res.cloudinary.com/alembic/image/upload/c_scale,e_auto_saturation,q_auto:good,w_1200/v1494823609/graphql-sydney-bg-2_wh7098.jpg") no-repeat center center / cover;
+  background: url("https://res.cloudinary.com/alembic/image/upload/c_scale,e_auto_saturation,q_auto:good,w_1200/v1494823609/graphql-sydney-bg-2_wh7098.jpg")
+    no-repeat center center / cover;
   background-color: #333;
 }
 
@@ -9,9 +10,17 @@
   z-index: 1000;
 }
 
-.home-about{
+.home-about {
   text-align: center;
   margin: 3rem 0;
+}
+
+.home-code-of-conduct {
+  width: 50%;
+  text-align: left;
+  margin: 3rem 0;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .logo {
