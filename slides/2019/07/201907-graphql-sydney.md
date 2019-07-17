@@ -1,9 +1,8 @@
 theme: Poster
 footer: @graphqlsydney
-slidenumbers: true
 
 # [fit] **GraphQL** **_Sydney_**
-# 9 *July* 2019
+# 17 *July* 2019
 
 ^
 Welcome to GraphQL Sydney.
@@ -16,7 +15,6 @@ Welcome to GraphQL Sydney.
 
 ^
 We have a great lineup of speakers, we'll cover some upcoming events, tips, tricks and jobs opportunities.<br />
-Then it's off to the pub to continue the conversation.
 
 ---
 
@@ -46,7 +44,7 @@ We'd like to kick things off by thanking our sponsors, without which these meetu
 ![inline](https://www.dropbox.com/s/6m2135kxl3y9gi3/microsoft-logo.png?dl=1)
 
 ^
-So, a big thanks firstly to out venue sponsor Microsoft Reactor. [Get Microsoft 1-2 sentence pitch text]
+So, a big thanks firstly to out venue sponsor Microsoft Reactor. Reactor are a community developer hub focused on supporting the community for meetups and events.
 
 ---
 
