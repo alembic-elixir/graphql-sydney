@@ -1,8 +1,8 @@
-theme: Poster
+theme: Plain Jane, 5
 footer: @graphqlsydney
 
-# [fit] **GraphQL** **_Sydney_**
-# [fit] 8 *September* 2019
+# [fit] **GraphQL Sydney**
+# [fit] *8 September 2019*
 
 ^
 Welcome to GraphQL Sydney.
@@ -10,8 +10,8 @@ Welcome to GraphQL Sydney.
 ---
 
 # [fit] **Tonight**
-## *Talks*
-## *Tips / Jobs*
+# **_Talks_**
+# **_Tips / Jobs_**
 
 ^
 We have a great lineup of speakers, we'll cover some upcoming events, tips, tricks and jobs opportunities.<br />
@@ -19,10 +19,10 @@ We have a great lineup of speakers, we'll cover some upcoming events, tips, tric
 ---
 
 # [fit] **Housekeeping**
-### *Bathrooms*
-### *Emergency Exits*
-### *Hot food*
-### *Glass bottles*
+## **_Bathrooms_**
+## **_Emergency Exits_**
+## **_Hot food_**
+## **_Glass bottles_**
 
 ^
 - Location of bathrooms
@@ -33,7 +33,7 @@ We have a great lineup of speakers, we'll cover some upcoming events, tips, tric
 
 ---
 
-# [fit] **Thanks** **_to our_**
+# [fit] *Thanks to our*
 # [fit] **Sponsors**
 
 ^
@@ -65,9 +65,9 @@ The bill for our dinner and drinks tonight gets picked up by Alembic. Alembic ar
 
 ![left](https://www.dropbox.com/s/6n82pw4u33msmb6/vasyl-boroviak.jpg?dl=1)
 
-# [fit] Fully *secure*
-# [fit] GraphQL HTTP
-# [fit] queries
+# [fit] **Fully Secure**
+# [fit] *GraphQL*
+# [fit] HTTP Queries
 # [fit] **_Vasyl Boroviak_**
 # [fit] **`@kore_sar`**
 
@@ -80,8 +80,8 @@ First, we have Vasyl, a regular Ukrainian developer passioned in all things Java
 
 ![right](https://www.dropbox.com/s/5dam2ws7yd9ihrf/drew-thomas.jpg?dl=1)
 
-# [fit] Confident GraphQL API
-# [fit] Refactoring with
+# [fit] **Confident** *GraphQL API*
+# [fit] **Refactoring** with
 # [fit] Static Analysis
 # [fit] **_Drew Thomas_**
 # [fit] **`@MomentsOfDrewth`**
@@ -92,9 +92,9 @@ Next we have Drew Thomas, a developer with Expert 360, who will be talking about
 ---
 ![inline 4%](https://www.dropbox.com/s/3p3u9xfgmuyf35e/Twitter_logo_bird_transparent_png.png?dl=1)
 
-# [fit] `@kore_sar` */* `@MomentsOfDrewth`
+# [fit] **`@kore_sar` / `@MomentsOfDrewth`**
 
-# [fit] *`@graphqlsydney`*
+# [fit] **`@graphqlsydney`**
 
 ^
 If you're Twitter-inclined please let tonight's speakers know how much you appreciate the work they put in by tweeting about it. Giving feedback definitely makes the speakers feel their efforts have made an impact beyond building their own presentation portfolio. Don't forget to mention graphqlsydney to tie the night altogether. 
@@ -130,10 +130,10 @@ We are looking for speakers!
 
 # [fit] **Where do I sign up?**
 
-- _`https://github.com/team-alembic/graphql-sydney/issues`_
-- _`@paulfioravanti`_
-- _`@joshprice`_
-- _`@freshtonic`_
+- **`https://github.com/team-alembic/graphql-sydney/issues`**
+- **`@paulfioravanti`**
+- **`@joshprice`**
+- **`@freshtonic`**
 
 ^
 - Open up an issue at the GraphQL Sydney Github repo and tell us all about what you would like to talk about.
@@ -162,13 +162,13 @@ Offering: say your name, your company name, a sentence on what you do. And a sen
 
 ![inline 4%](https://www.dropbox.com/s/3p3u9xfgmuyf35e/Twitter_logo_bird_transparent_png.png?dl=1)
 
-# [fit] *`@graphqlsydney`*
+# [fit] **`@graphqlsydney`**
 
 ---
 
-# [fit] *Next Meetup*
-# [fit] 20 November *2019*
-# [fit] *at* Microsoft Reactor
+# [fit] **Next Meetup**
+# [fit] *20 November 2019*
+# [fit] at **Microsoft Reactor**
 
 ^
 The next meetup will be on the 20th of November right here at Microsoft Reactor, so thanks to Microsoft for continuing to host us! And since there is a whole two months before the next one, we look forward to your talk submissions.<br />
